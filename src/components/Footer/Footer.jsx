@@ -1,11 +1,12 @@
-import { ArrowUp, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 import { personal } from '../../data/portfolio';
 import MagneticButton, { MagneticLink } from '../ui/MagneticButton';
 
 const socialIcons = [
-  { icon: Github, href: personal.socials.github, label: 'GitHub' },
-  { icon: Linkedin, href: personal.socials.linkedin, label: 'LinkedIn' },
-  { icon: Twitter, href: personal.socials.twitter, label: 'Twitter' },
+  { icon: FaGithub, href: personal.socials.github, label: 'GitHub' },
+  { icon: FaLinkedin, href: personal.socials.linkedin, label: 'LinkedIn' },
+  { icon: FaXTwitter, href: personal.socials.twitter, label: 'Twitter' },
 ];
 
 export default function Footer() {

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, MapPin, Github, Linkedin, Send, CheckCircle } from 'lucide-react';
+import { Mail, MapPin, Send, CheckCircle } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import { personal } from '../../data/portfolio';
 import SectionHeading from '../ui/SectionHeading';
 import MagneticButton from '../ui/MagneticButton';
@@ -19,13 +20,13 @@ const contactLinks = [
     href: null,
   },
   {
-    icon: Github,
+    icon: FaGithub,
     label: 'GitHub',
     value: 'github.com/mutahirshowket',
     href: personal.socials.github,
   },
   {
-    icon: Linkedin,
+    icon: FaLinkedin,
     label: 'LinkedIn',
     value: 'linkedin.com/in/mutahirshowket',
     href: personal.socials.linkedin,

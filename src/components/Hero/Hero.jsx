@@ -1,13 +1,14 @@
 import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowDown, Download, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowDown, Download } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 import { personal } from '../../data/portfolio';
 import { MagneticLink } from '../ui/MagneticButton';
 
 const socialIcons = [
-  { icon: Github, href: personal.socials.github, label: 'GitHub' },
-  { icon: Linkedin, href: personal.socials.linkedin, label: 'LinkedIn' },
-  { icon: Twitter, href: personal.socials.twitter, label: 'Twitter' },
+  { icon: FaGithub, href: personal.socials.github, label: 'GitHub' },
+  { icon: FaLinkedin, href: personal.socials.linkedin, label: 'LinkedIn' },
+  { icon: FaXTwitter, href: personal.socials.twitter, label: 'Twitter' },
 ];
 
 export default function Hero() {

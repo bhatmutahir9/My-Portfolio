@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa6';
 import { projects } from '../../data/projects';
 import LazyImage from '../ui/LazyImage';
 import SectionHeading from '../ui/SectionHeading';
@@ -73,7 +74,7 @@ export default function Projects() {
                       className="theme-transition flex flex-1 items-center justify-center gap-2 rounded-xl border border-border py-2.5 text-sm font-medium text-foreground transition-colors hover:border-primary/30 hover:text-primary"
                       aria-label={`View ${project.title} on GitHub`}
                     >
-                      <Github className="h-4 w-4" />
+                      <FaGithub className="h-4 w-4" />
                       GitHub
                     </a>
                     <a
