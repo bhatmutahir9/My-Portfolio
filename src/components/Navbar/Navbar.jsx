@@ -43,10 +43,10 @@ export default function Navbar() {
         >
           <a
             href="#home"
-            className="font-heading text-lg font-bold tracking-tight text-foreground transition-opacity hover:opacity-80"
+            className="font-heading  text-lg font-bold tracking-tight text-foreground transition-opacity hover:opacity-80"
             aria-label="Go to home"
           >
-            MS<span className="text-primary">.</span>
+            MUTAHIR SHOWKET
           </a>
 
           {/* Desktop nav */}

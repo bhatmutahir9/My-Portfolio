@@ -22,13 +22,13 @@ const contactLinks = [
   {
     icon: FaGithub,
     label: 'GitHub',
-    value: 'github.com/mutahirshowket',
+    value: 'https://github.com/bhatmutahir9',
     href: personal.socials.github,
   },
   {
     icon: FaLinkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/mutahirshowket',
+    value: 'https://www.linkedin.com/in/mutahir-showket-b21254324/',
     href: personal.socials.linkedin,
   },
 ];

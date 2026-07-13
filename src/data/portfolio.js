@@ -1,14 +1,14 @@
 import hero from "../assets/hero.jpeg";
 
 export const personal = {
-  name: "Mutahir Showket",
+  name: "Mutahir Showket Bhat",
   firstName: "Mutahir",
   role: "Full Stack Developer",
   intro:
     "I build modern, responsive and scalable web applications with clean code and exceptional user experiences.",
 
-  email: "mutahirshowket@gmail.com", // Replace with your actual email
-  location: "Srinagar, Jammu & Kashmir, India",
+  email: "bhatmutahir913@gmail.com", 
+  location: "Kulgam - (192232), Jammu & Kashmir, India",
   availability: "Open to Work",
 
   resumeUrl: "/resume.pdf",
@@ -16,9 +16,9 @@ export const personal = {
   profileImage: hero,
 
   socials: {
-    github: "https://github.com/mutahirshowket",
-    linkedin: "https://linkedin.com/in/mutahirshowket", // Replace if different
-    twitter: "https://x.com/mutahirshowket", // Replace if different
+    github: "https://github.com/bhatmutahir9",
+    linkedin: "https://www.linkedin.com/in/mutahir-showket-b21254324/", 
+    whatsapp: "https://wa.me/916005064124", 
   },
 };
 
@@ -35,18 +35,18 @@ export const about =
 
 export const skills = {
   frontend: [
+    "HTML5",
+    "CSS3",
     "React",
     "JavaScript",
-    "TypeScript",
-    "Next.js",
     "Tailwind CSS",
     "Framer Motion",
   ],
 
   backend: [
-    "Node.js",
     "Express.js",
-    "MongoDB",
+    "MySQL",
+    "Java-SpringBoot",
     "PostgreSQL",
     "REST API",
   ],
@@ -54,19 +54,19 @@ export const skills = {
   tools: [
     "Git",
     "GitHub",
-    "Docker",
     "Vite",
     "VS Code",
+    "Intellij IDEA"
   ],
 };
 
 export const experience = [
   {
     id: 1,
-    title: "React Developer Intern",
+    title: "Full Stack Developer INTERN",
     description:
-      "Built responsive dashboards and integrated REST APIs for internal business applications.",
-    period: "2025 – Present",
+      "Built fully functional and responsive financial services WEBAPP",
+    period: "June-July – 2026",
   },
   {
     id: 2,
@@ -80,26 +80,33 @@ export const experience = [
 export const education = [
   {
     id: 1,
-    title: "B.Tech in Computer Science",
+    title: "BCA Bachelor of Computer Applications",
     description:
       "Focused on software engineering, web development and modern programming practices.",
-    period: "2022 – 2026",
+    period: "2024 – Present",
   },
 ];
 
 export const certifications = [
   {
     id: 1,
-    title: "AWS Cloud Practitioner",
+    title: "UI/UX Designing Workshop",
     description:
-      "Fundamentals of AWS cloud services and cloud architecture.",
-    period: "2025",
+      "Fundamentals of UI/UX Design",
+    period: "DECEMBER-2025",
   },
   {
     id: 2,
-    title: "Meta Front-End Developer",
+    title: "30Days Coding Marathon Hackathon",
     description:
-      "Professional frontend development with React, JavaScript and modern UI practices.",
-    period: "2024",
+      "Daily problem solving challenges for 30Days (Technology used JAVA)",
+    period: "FEB-2026 : MARCH-2026",
+  },
+  {
+    id: 3,
+    title: "30Days Coding Marathon Hackathon",
+    description:
+      "Daily problem solving challenges for 30Days (Technology used C++)",
+    period: "JAN-2025 : FEB-2025",
   },
 ];

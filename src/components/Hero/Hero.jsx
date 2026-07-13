@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Download } from "lucide-react";
-import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaWhatsapp} from "react-icons/fa6";
 
 import { personal } from "../../data/portfolio";
 import { MagneticLink } from "../ui/MagneticButton";
@@ -18,9 +18,9 @@ const socialIcons = [
     label: "LinkedIn",
   },
   {
-    icon: FaXTwitter,
-    href: personal.socials.twitter,
-    label: "Twitter",
+    icon: FaWhatsapp,
+    href: personal.socials.whatsapp,
+    label: "WhatsApp",
   },
 ];
 
