@@ -197,7 +197,7 @@ export default function Contact() {
                 <MagneticButton
                   type="submit"
                   disabled={isSubmitting}
-                  className="theme-transition w-full rounded-xl bg-gradient-to-r from-primary to-secondary px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-primary/25 transition-all hover:shadow-primary/40 disabled:opacity-70"
+                  className="theme-transition w-full rounded-xl bg-linear-to-r from-primary to-secondary px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-primary/25 transition-all hover:shadow-primary/40 disabled:opacity-70"
                 >
                   {isSubmitting ? (
                     'Sending...'
