@@ -33,10 +33,10 @@ export default function Projects() {
                   <LazyImage
                     src={project.image}
                     alt={project.title}
-                    className="aspect-[16/10] w-full transition-transform duration-500 group-hover:scale-105"
+                    className="aspect-16/10 w-full transition-transform duration-500 group-hover:scale-105"
                   />
                   <div
-                    className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                    className="absolute inset-0 bg-linear-to-t from-card/80 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                     aria-hidden="true"
                   />
                 </div>

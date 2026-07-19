@@ -11,7 +11,7 @@ export const personal = {
   location: "Kulgam - (192232), Jammu & Kashmir, India",
   availability: "Open to Work",
 
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Resume-Mutahir.pdf",
 
   profileImage: hero,
 

@@ -2,11 +2,11 @@ export const projects = [
   {
     id: 1,
     title: 'Financial Services WEBAPP',
-    description: 'JIAS House Of Wealth Financial Services WebApp - Built for customer engagement anA premium financial services website built with React, Tailwind CSS, and Framer Motion, featuring responsive design, interactive UI, consultation booking, and production-ready performance.',
+    description: 'JIAS House Of Wealth Financial Services WebApp - Built for customer engagement and a premium financial services website built with React, Tailwind CSS, and Framer Motion, featuring responsive design, interactive UI, consultation booking, and production-ready performance.',
     image:
-      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop',
-    technologies: ['React', 'Javascript', 'Framer Motion ', 'Tailwind', ],
-    github: 'https://github.com/bhatmutahir9/H-O-W-webapp',
+      "/Project01HOW.png",
+    technologies: ['HTML5','CSS3','React', 'Javascript', 'Framer Motion ', 'TailwindCSS','PostgreSQL', ],
+    github: 'https://github.com/bhatmutahir9/HouseOfWealth-WEBSITE',
     live: 'https://www.jiashouseofwealth.com',
   },
  
